@@ -154,7 +154,7 @@ jobs:
         cargo -V
         rustc -V
 
-    - uses: WarpBuilds/rust-cache@v2
+    - uses: WarpBuilds/rust-cache@sync-upstream
 
     - name: Build
       uses: actions-rs/cargo@v1
